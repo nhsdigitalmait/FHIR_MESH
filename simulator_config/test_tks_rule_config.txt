@@ -3,34 +3,35 @@
 # Chris Berry
 
 BEGIN RESPONSES
-inf_ack_only_10001	class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	10001
-inf_ack_only_10002	class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	10002
-inf_ack_only_10003	class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	10003
-inf_ack_only_10004	class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	10004
-inf_ack_only_10005	class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	10005
-inf_ack_only_10006	class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	10006
-inf_ack_only_10007	class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	10007
-inf_ack_only_10008	class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	10008
-inf_ack_only_10009	class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	10009
-inf_ack_only_20001	class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	20001
-inf_ack_only_20002	class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	20002
-inf_ack_only_20003	class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	20003
-inf_ack_only_20004	class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	20004
-inf_ack_only_20005	class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	20005
-inf_ack_only_20006	class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	20006
-inf_ack_only_20007	class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	20007
-inf_ack_only_20008	class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	20008
-inf_ack_only_20009	class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	20009
-inf_ack_only_20010	class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	20010
-inf_ack_only_20011	class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	20011
-inf_ack_only_20012	class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	20012
-inf_ack_only_20013	class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	20013
-bus_ack_only_30001	class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorBusAckOnly		"200 OK"	30001
-bus_ack_only_30002	class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorBusAckOnly		"200 OK"	30002
-bus_ack_only_30003	class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorBusAckOnly		"200 OK"	30003
-acks_IB001			class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActor				"200 OK"	IB001
-acks_IB002			class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActor				"200 OK"	IB002
-acks_IB003			class:org.warlock.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActor				"200 OK"	IB003
+inf_ack_only_10001	class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	10001
+inf_ack_only_10002	class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	10002
+inf_ack_only_10003	class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	10003
+inf_ack_only_10004	class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	10004
+inf_ack_only_10005	class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	10005
+inf_ack_only_10006	class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	10006
+inf_ack_only_10007	class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	10007
+inf_ack_only_10008	class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	10008
+inf_ack_only_10009	class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	10009
+inf_ack_only_20001	class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	20001
+inf_ack_only_20002	class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	20002
+inf_ack_only_20003	class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	20003
+inf_ack_only_20004	class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	20004
+inf_ack_only_20005	class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	20005
+inf_ack_only_20006	class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	20006
+inf_ack_only_20007	class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	20007
+inf_ack_only_20008	class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	20008
+inf_ack_only_20009	class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	20009
+inf_ack_only_20010	class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	20010
+inf_ack_only_20011	class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	20011
+inf_ack_only_20012	class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	20012
+inf_ack_only_20013	class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorInfAckOnly		"200 OK"	20013
+bus_ack_only_30001	class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorBusAckOnly		"200 OK"	30001
+bus_ack_only_30002	class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorBusAckOnly		"200 OK"	30002
+bus_ack_only_30003	class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActorBusAckOnly		"200 OK"	30003
+acks_IB001			class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActor				"200 OK"	IB001
+acks_IB002			class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActor				"200 OK"	IB002
+acks_IB003			class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.MESHFHIRITKRoutingActor				"200 OK"	IB003
+no_response class:uk.nhs.digital.mait.tkwx.tk.internalservices.rules.routingactor.NoResponse
 do_process	NONE	0
 END RESPONSES
 
@@ -53,9 +54,6 @@ __REQUEST_UUID__	Xpath //fhir:MessageHeader/fhir:id/@value
 __REQUEST_SOURCE_ENDPOINT__ Xpath /fhir:Bundle/fhir:entry/fhir:resource/fhir:MessageHeader/fhir:source/fhir:endpoint/@value
 __REQUEST_DEST_ENDPOINT__ Xpath /fhir:Bundle/fhir:entry/fhir:resource/fhir:MessageHeader/fhir:destination/fhir:endpoint/@value
 __REQUEST_FOCUS_UUID__ Xpath /fhir:Bundle/fhir:entry/fhir:resource/fhir:Bundle/fhir:id/@value
-# added scf Mesh control files are viewed as text not xml test with MeshRulesEngineTest
-#SESSION_ID reg_exp mesh_ctl "(?s)^.*From_DTS.(.*)..From_DTS.*$" "$1"
-SESSION_ID Xpath mesh_ctl /DTSControl/From_DTS
 END SUBSTITUTIONS
 
 #Test Data Lists
@@ -79,8 +77,8 @@ return_testdata_IB001		mesh_dat	XpathEquals	boolean((//*[local-name()='Patient']
 return_testdata_30001		mesh_dat	XpathEquals	boolean((//*[local-name()='Patient']/*[local-name()='identifier']/*[local-name()='value'][contains('9657702003 9657702011 9657702038 9657702046 9657702054 9657702062 9657702070 9657702089 9657702097 9657702100 9657702119 9657702127 9657702135 9657702143 9657702151' , @value)])and(//*[local-name()='MessageHeader']/*[local-name()='extension']/*[local-name()='extension'][@url='InfAckRequested']/*[local-name()='valueBoolean'][@value='false'])) true
 return_testdata_IB002		mesh_dat	XpathEquals	boolean((//*[local-name()='Patient']/*[local-name()='identifier']/*[local-name()='value'][contains('9657702178 9657702186 9657702194 9657702208 9657702216 9657702224 9657702232 9657702240 9657702259 9657702267 9657702275 9657702283 9657702291 9657702305 9657702313' , @value)])and(//*[local-name()='MessageHeader']/*[local-name()='extension']/*[local-name()='extension'][@url='InfAckRequested']/*[local-name()='valueBoolean'][@value='true'])) true
 return_testdata_30002		mesh_dat	XpathEquals	boolean((//*[local-name()='Patient']/*[local-name()='identifier']/*[local-name()='value'][contains('9657702178 9657702186 9657702194 9657702208 9657702216 9657702224 9657702232 9657702240 9657702259 9657702267 9657702275 9657702283 9657702291 9657702305 9657702313' , @value)])and(//*[local-name()='MessageHeader']/*[local-name()='extension']/*[local-name()='extension'][@url='InfAckRequested']/*[local-name()='valueBoolean'][@value='false'])) true
-return_testdata_IB003		mesh_dat	XpathEquals	boolean((//*[local-name()='Patient']/*[local-name()='identifier']/*[local-name()='value'][contains('9657702402 9657702410 9657702429 9657702437 9657702445' , @value)])and(//*[local-name()='MessageHeader']/*[local-name()='extension']/*[local-name()='extension'][@url='InfAckRequested']/*[local-name()='valueBoolean'][@value='true'])) true
-return_testdata_30003		mesh_dat	XpathEquals	boolean((//*[local-name()='Patient']/*[local-name()='identifier']/*[local-name()='value'][contains('9657702402 9657702410 9657702429 9657702437 9657702445' , @value)])and(//*[local-name()='MessageHeader']/*[local-name()='extension']/*[local-name()='extension'][@url='InfAckRequested']/*[local-name()='valueBoolean'][@value='false'])) true
+return_testdata_IB003		mesh_dat	XpathEquals	boolean((//*[local-name()='Patient']/*[local-name()='identifier']/*[local-name()='value'][contains('99657702402 9657702410 9657702429 9657702437 9657702445' , @value)])and(//*[local-name()='MessageHeader']/*[local-name()='extension']/*[local-name()='extension'][@url='InfAckRequested']/*[local-name()='valueBoolean'][@value='true'])) true
+return_testdata_30003		mesh_dat	XpathEquals	boolean((//*[local-name()='Patient']/*[local-name()='identifier']/*[local-name()='value'][contains('99657702402 9657702410 9657702429 9657702437 9657702445' , @value)])and(//*[local-name()='MessageHeader']/*[local-name()='extension']/*[local-name()='extension'][@url='InfAckRequested']/*[local-name()='valueBoolean'][@value='false'])) true
 return_infnack_10001		mesh_dat	XpathEquals	boolean(//*[local-name()='Bundle']//*[local-name()='entry']/*[local-name()='resource']/*[local-name()='Practitioner']/*[local-name()='name']/*[local-name()='given'][@value='10001']) true
 return_infnack_10002		mesh_dat	XpathEquals	boolean(//*[local-name()='Bundle']//*[local-name()='entry']/*[local-name()='resource']/*[local-name()='Practitioner']/*[local-name()='name']/*[local-name()='given'][@value='10002']) true
 return_infnack_10003		mesh_dat	XpathEquals	boolean(//*[local-name()='Bundle']//*[local-name()='entry']/*[local-name()='resource']/*[local-name()='Practitioner']/*[local-name()='name']/*[local-name()='given'][@value='10003']) true
@@ -112,17 +110,16 @@ prod_return_infackonly		mesh_dat	XpathEquals	boolean((//*[local-name()='MessageH
 prod_return_busackonly		mesh_dat	XpathEquals	boolean((//*[local-name()='MessageHeader']/*[local-name()='extension']/*[local-name()='extension'][@url='InfAckRequested']/*[local-name()='valueBoolean'][@value='false']) and (//*[local-name()='MessageHeader']/*[local-name()='extension']/*[local-name()='extension'][@url='BusAckRequested']/*[local-name()='valueBoolean'][@value='true'])) true
 prod_return_noack			mesh_dat	XpathEquals	boolean((//*[local-name()='MessageHeader']/*[local-name()='extension']/*[local-name()='extension'][@url='InfAckRequested']/*[local-name()='valueBoolean'][@value='false']) and (//*[local-name()='MessageHeader']/*[local-name()='extension']/*[local-name()='extension'][@url='BusAckRequested']/*[local-name()='valueBoolean'][@value='false'])) true
 prod_return_bothack			mesh_dat	XpathEquals	boolean((//*[local-name()='MessageHeader']/*[local-name()='extension']/*[local-name()='extension'][@url='InfAckRequested']/*[local-name()='valueBoolean'][@value='true']) and (//*[local-name()='MessageHeader']/*[local-name()='extension']/*[local-name()='extension'][@url='BusAckRequested']/*[local-name()='valueBoolean'][@value='true'])) true
-prod_return_notsetack		mesh_dat	XpathEquals	boolean((//*[local-name()='MessageHeader']/*[local-name()='extension']/*[local-name()='extension'][@url='InfAckRequested']/*[local-name()='valueBoolean'][@value='true' or @value='false']) and (//*[local-name()='MessageHeader']/*[local-name()='extension']/*[local-name()='extension'][@url='BusAckRequested']/*[local-name()='valueBoolean'][@value='true' or @value='false'])) false
 incoming_busack_inf			mesh_dat	XpathEquals boolean((//*[local-name()='OperationOutcome']/*[local-name()='issue']/*[local-name()='details']/*[local-name()='coding']/*[local-name()='code'][@value='30001' or @value='30002' or @value='30003']) and (//*[local-name()='MessageHeader']/*[local-name()='extension']/*[local-name()='extension'][@url='InfAckRequested']/*[local-name()='valueBoolean'][@value='true'])) true
 incoming_busack_noinfack	mesh_dat	XpathEquals boolean((//*[local-name()='OperationOutcome']/*[local-name()='issue']/*[local-name()='details']/*[local-name()='coding']/*[local-name()='code'][@value='30001' or @value='30002' or @value='30003']) and (not(//*[local-name()='MessageHeader']/*[local-name()='extension']/*[local-name()='extension'][@url='InfAckRequested']/*[local-name()='valueBoolean'][@value='true']))) true
 incoming_infack				mesh_dat	XpathEquals	boolean(//*[local-name()='OperationOutcome']/*[local-name()='issue']/*[local-name()='details']/*[local-name()='coding']/*[local-name()='code'][@value='10001' or @value='10002' or @value='10003' or @value='10004' or @value='10005' or @value='10006' or @value='10007' or @value='10008' or @value='10009' or @value='20001' or @value='20002' or @value='20003' or @value='20004' or @value='20005' or @value='20006' or @value='20007' or @value='20008' or @value='20009' or @value='20010' or @value='20011' or @value='20012' or @value='20013']) true
-passthrough	Always
+bundle		mesh_dat	XpathEquals	boolean(//*[local-name()='Bundle']) true
+passthrough	ALWAYS
 END EXPRESSIONS
 
 #Discharge summary (record artifact)/NO caresetting type specified
 BEGIN RULE
 ITK003D
-IF prod_return_noack then do_process
 IF return_testdata_IB001 then acks_IB001
 IF return_testdata_30001 then bus_ack_only_30001
 IF return_testdata_IB002 then acks_IB002
@@ -159,13 +156,12 @@ IF prod_return_bothack_IB003 then acks_IB003
 IF prod_return_bothack then acks_IB001
 IF prod_return_infackonly then inf_ack_only_20013
 IF prod_return_busackonly then bus_ack_only_30001
-IF prod_return_notsetack then inf_ack_only_10002
+IF prod_return_noack then do_process
 END RULE
 
 #Discharge summary (record artifact)/NO caresetting type specified
 BEGIN RULE
 ITK004D
-IF prod_return_noack then do_process
 IF return_testdata_IB001 then acks_IB001
 IF return_testdata_30001 then bus_ack_only_30001
 IF return_testdata_IB002 then acks_IB002
@@ -202,13 +198,12 @@ IF prod_return_bothack_IB003 then acks_IB003
 IF prod_return_bothack then acks_IB001
 IF prod_return_infackonly then inf_ack_only_20013
 IF prod_return_busackonly then bus_ack_only_30001
-IF prod_return_notsetack then inf_ack_only_10002
+IF prod_return_noack then do_process
 END RULE
 
 #Discharge summary (record artifact)/NO caresetting type specified
 BEGIN RULE
 ITK005D
-IF prod_return_noack then do_process
 IF return_testdata_IB001 then acks_IB001
 IF return_testdata_30001 then bus_ack_only_30001
 IF return_testdata_IB002 then acks_IB002
@@ -245,13 +240,12 @@ IF prod_return_bothack_IB003 then acks_IB003
 IF prod_return_bothack then acks_IB001
 IF prod_return_infackonly then inf_ack_only_20013
 IF prod_return_busackonly then bus_ack_only_30001
-IF prod_return_notsetack then inf_ack_only_10002
+IF prod_return_noack then do_process
 END RULE
 
 #Discharge summary (record artifact)/NO caresetting type specified
 BEGIN RULE
 ITK006D
-IF prod_return_noack then do_process
 IF return_testdata_IB001 then acks_IB001
 IF return_testdata_30001 then bus_ack_only_30001
 IF return_testdata_IB002 then acks_IB002
@@ -288,7 +282,7 @@ IF prod_return_bothack_IB003 then acks_IB003
 IF prod_return_bothack then acks_IB001
 IF prod_return_infackonly then inf_ack_only_20013
 IF prod_return_busackonly then bus_ack_only_30001
-IF prod_return_notsetack then inf_ack_only_10002
+IF prod_return_noack then do_process
 END RULE
 
 BEGIN RULE
@@ -298,3 +292,37 @@ IF incoming_busack_inf then inf_ack_only_20013
 IF incoming_infack then do_process
 END RULE
 
+BEGIN RULE
+pds-birth-notification-1
+IF bundle then no_response
+END RULE
+
+BEGIN RULE
+pds-change-of-address-1
+IF bundle then no_response
+END RULE
+
+BEGIN RULE
+pds-change-of-gp-1
+IF bundle then no_response
+END RULE
+
+BEGIN RULE
+pds-death-notification-1
+IF bundle then no_response
+END RULE
+
+BEGIN RULE
+blood-spot-test-outcome-1
+IF bundle then no_response
+END RULE
+
+BEGIN RULE
+newborn-hearing-1
+IF bundle then no_response
+END RULE
+
+BEGIN RULE
+nipe-outcome-1
+IF bundle then no_response
+END RULE

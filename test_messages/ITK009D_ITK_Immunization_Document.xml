@@ -1,0 +1,738 @@
+<Bundle xmlns="http://hl7.org/fhir">
+	<id value="834233ff-773c-4ad2-8738-23a1356bb679" />
+	<meta>
+		<profile value="https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Message-Bundle-1" />
+	</meta>
+	<identifier>
+		<system value="https://tools.ietf.org/html/rfc4122" />
+		<value value="74c4845b-4ee2-418f-b622-0e5391814358" />
+	</identifier>
+	<type value="message" />
+	<entry>
+		<fullUrl value="urn:uuid:b746b622-8d5d-48f1-915b-ea3a4e02971f" />
+		<resource>
+			<MessageHeader>
+				<id value="b746b622-8d5d-48f1-915b-ea3a4e02971f" />
+				<meta>
+					<profile value="https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageHeader-2" />
+				</meta>
+				<extension url="https://fhir.nhs.uk/STU3/StructureDefinition/Extension-ITK-MessageHandling-2">
+					<extension url="BusAckRequested">
+						<valueBoolean value="true" />
+					</extension>
+					<extension url="InfAckRequested">
+						<valueBoolean value="true" />
+					</extension>
+					<extension url="RecipientType">
+						<valueCoding>
+							<system value="https://fhir.nhs.uk/STU3/CodeSystem/ITK-RecipientType-1" />
+							<code value="FA" />
+							<display value="For Action" />
+						</valueCoding>
+					</extension>
+					<extension url="MessageDefinition">
+						<valueReference>
+							<reference value="https://fhir.nhs.uk/STU3/MessageDefinition/ITK-DM-Immunization-MessageDefinition-1" />
+						</valueReference>
+					</extension>
+					<extension url="SenderReference">
+						<valueString value="Int-20190904-001" />
+					</extension>
+					<extension url="LocalExtension">
+						<valueString value="None" />
+					</extension>
+				</extension>
+				<event>
+					<system value="https://fhir.nhs.uk/STU3/CodeSystem/ITK-MessageEvent-2" />
+					<code value="ITK009D" />
+					<display value="ITK Digital Medicine Immunization Document" />
+				</event>
+				<timestamp value="2019-09-04T06:55:24Z" />
+				<receiver>
+					<reference value="urn:uuid:e68e0566-4c65-4508-af65-08a4a6f680e4" />
+				</receiver>
+				<sender>
+					<reference value="urn:uuid:fd9edf22-4961-415e-b602-ce32b2e9e18b" />
+				</sender>
+				<source>
+					<endpoint value="8J110OT001" />
+				</source>
+				<focus>
+					<reference value="urn:uuid:1906041f-b56a-4f45-a618-9608fed09df9" />
+				</focus>
+			</MessageHeader>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:fd9edf22-4961-415e-b602-ce32b2e9e18b" />
+		<resource>
+			<Organization>
+				<id value="fd9edf22-4961-415e-b602-ce32b2e9e18b" />
+				<meta>
+					<profile value="https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-Organization-1" />
+				</meta>
+				<identifier>
+					<system value="https://fhir.nhs.uk/Id/ods-organization-code" />
+					<value value="FKL95" />
+				</identifier>
+			</Organization>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:e68e0566-4c65-4508-af65-08a4a6f680e4" />
+		<resource>
+			<Organization>
+				<id value="e68e0566-4c65-4508-af65-08a4a6f680e4" />
+				<meta>
+					<profile value="https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-Organization-1" />
+				</meta>
+				<identifier>
+					<system value="https://fhir.nhs.uk/Id/ods-organization-code" />
+					<value value="P86609" />
+				</identifier>
+			</Organization>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl value="urn:uuid:1906041f-b56a-4f45-a618-9608fed09df9" />
+		<resource>
+			<Bundle xmlns="http://hl7.org/fhir">
+				<id value="1906041f-b56a-4f45-a618-9608fed09df9" />
+				<meta>
+					<lastUpdated value="2019-07-03T13:31:32Z" />
+					<profile          value="https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Document-Bundle-1" />
+				</meta>
+				<identifier>
+					<system value="https://tools.ietf.org/html/rfc4122" />
+					<value value="3f1553bf-41b1-4853-bb20-f9c15acafa3f" />
+				</identifier>
+				<type value="document" />
+				<!--Pharmacy Vaccinations Notification Document -->
+				<entry>
+					<fullUrl value="urn:uuid:72e46095-b89c-41da-831b-c4b555a20a9f" />
+					<resource>
+						<Composition>
+							<id value="72e46095-b89c-41da-831b-c4b555a20a9f" />
+							<meta>
+								<profile value="https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-Immunization-Composition-1" />
+							</meta>
+							<extension url="https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareSettingType-1">
+								<valueCodeableConcept>
+									<coding>
+										<system value="http://snomed.info/sct" />
+										<code value="310080006" />
+										<display value="Pharmacy service" />
+									</coding>
+								</valueCodeableConcept>
+							</extension>
+							<identifier>
+								<system value="https://tools.ietf.org/html/rfc4122" />
+								<value value="dd4ac80e-5027-4d34-b045-911aaefbc70c" />
+							</identifier>
+							<status value="final" />
+							<type>
+								<coding>
+									<system value="http://snomed.info/sct" />
+									<code value="41000179103" />
+									<display value="Immunisation record" />
+								</coding>
+							</type>
+							<subject>
+								<reference value="urn:uuid:3f389766-00d2-4547-af00-62ac84d0edf9" />
+							</subject>
+							<encounter>
+								<reference value="urn:uuid:9a839106-3d7e-43fc-aaed-ba5ac29ecc86" />
+							</encounter>
+							<date value="2019-07-03T13:31:32Z" />
+							<title value="Community Pharmacy Seasonal Flu Vaccine Record" />
+							<author>
+								<reference          value="urn:uuid:87c96dc5-ccc7-4a1c-aa7a-78f75d993e5b" />
+							</author>
+							<custodian>
+								<reference          value="urn:uuid:3eff2d48-9248-4f8e-9a6d-78413c360a75" />
+							</custodian>
+							<!--SECTION 1: Allergies and adverse reactions-->
+							<section>
+								<title value="Allergies and Adverse Reactions"/>
+								<code>
+									<coding>
+										<system value="http://snomed.info/sct"/>
+										<code value="886921000000105"/>
+										<display value="Allergies and adverse reactions"/>
+									</coding>
+								</code>
+								<text>
+									<status value="additional"/>
+									<div xmlns="http://www.w3.org/1999/xhtml">
+										<table width="100%">
+											<tbody>
+												<tr>
+													<th>Causative agent</th>
+													<td>No known drug allergy</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</text>
+								<!--Reference to Allergies List as the source of information for this section-->
+								<entry>
+									<reference value="urn:uuid:fd9cc5ce-2bf5-4642-9c47-9c041688132e"/>
+								</entry>
+							</section>
+							<!--SECTION 2: Attendance details-->
+							<section>
+								<title value="Attendance Details"/>
+								<code>
+									<coding>
+										<system value="http://snomed.info/sct"/>
+										<code value="1077881000000105"/>
+										<display value="Attendance details"/>
+									</coding>
+								</code>
+								<text>
+									<status value="additional"/>
+									<div xmlns="http://www.w3.org/1999/xhtml">
+										<table width="100%">
+											<tbody>
+												<tr>
+													<th>Date of contact</th>
+													<td>23 Jul 1986</td>
+												</tr>
+												<tr>
+													<th>Organisation name</th>
+													<td>Name: Regent Pharmacy (Shanklin)</td>
+												</tr>
+												<tr>
+													<th>Organisation address</th>
+													<td>1 High Street, Overtown, Leeds LS1 9AM</td>
+												</tr>
+												<tr>
+													<th>Telephone</th>
+													<td>01134875516</td>
+												</tr>
+												<tr>
+													<th>Secure email</th>
+													<td>invalid.fortest@nhs.net</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</text>
+								<!--Reference to Encounter resource as the source of information for this section-->
+								<entry>
+									<reference value="urn:uuid:9a839106-3d7e-43fc-aaed-ba5ac29ecc86"/>
+								</entry>
+							</section>
+							<!--SECTION 3: Consent-->
+							<section>
+								<title value="Consent"/>
+								<code>
+									<coding>
+										<system value="http://snomed.info/sct" />
+										<code value="61861000000100" />
+										<display value="Consent"/>
+									</coding>
+								</code>
+								<text>
+									<status value="additional"/>
+									<div xmlns="http://www.w3.org/1999/xhtml">
+										<table width="100%">
+											<tbody>
+												<tr>
+													<th>Consent for treatment record</th>
+													<td>Patient's consent for treatment has been attained.</td>
+												</tr>
+												<tr>
+													<th>Consent for information sharing</th>
+													<td>Patient is happy for the immunisation details to be shared with their Registered GP practice.</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</text>
+							</section>
+							<!--SECTION 4: Eligibility Criteria-->
+							<section>
+								<title value="Eligibility Criteria"/>
+								<code>
+									<coding>
+										<system value="http://snomed.info/sct" />
+										<code value="61871000000107" />
+										<display value="Eligibility for treatment" />
+									</coding>
+								</code>
+								<text>
+									<status value="additional"/>
+									<div xmlns="http://www.w3.org/1999/xhtml">
+										<table width="100%">
+											<tbody>
+												<tr>
+													<th>Eligibility criteria</th>
+													<td>65 years and over</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</text>
+							</section>
+							<!--SECTION 5: GP Practice-->
+							<section>
+								<title value="GP Practice"/>
+								<code>
+									<coding>
+										<system value="http://snomed.info/sct"/>
+										<code value="886711000000101"/>
+										<display value="GP practice"/>
+									</coding>
+								</code>
+								<text>
+									<status value="additional"/>
+									<div xmlns="http://www.w3.org/1999/xhtml">
+										<table width="100%">
+											<tbody>
+												<tr>
+													<th>GP ODS Code</th>
+													<td>P86609</td>
+												</tr>
+												<tr>
+													<th>GP Practice Name</th>
+													<td>MGP Medical Centre</td>
+												</tr>
+												<tr>
+													<th>GP Practice Address</th>
+													<td>1 MGP House, Overtown, Leeds LS21 7PA</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</text>
+								<!--Reference to the Organisation entry as the source of information for this section-->
+								<entry>
+									<reference value="urn:uuid:6662778c-a7e2-4054-aba6-2573e7f0ce94"/>
+								</entry>
+							</section>
+							<!--SECTION 6: Vaccinations-->
+							<section>
+								<title value="Vaccinations"/>
+								<code>
+									<coding>
+										<system value="http://snomed.info/sct"/>
+										<code value="1102181000000102"/>
+										<display value="Immunisations"/>
+									</coding>
+								</code>
+								<text>
+									<status value="additional"/>
+									<div xmlns="http://www.w3.org/1999/xhtml">
+										<table width="100%">
+											<tbody>
+												<tr>
+													<th>Vaccine product</th>
+													<td>Seasonal influenza vaccination given by pharmacist</td>
+												</tr>
+												<tr>
+													<th>Site</th>
+													<td>Right upper arm</td>
+												</tr>
+												<tr>
+													<th>Route</th>
+													<td>Subcutaneous route</td>
+												</tr>
+												<tr>
+													<th>Indication</th>
+													<td>65 years and over</td>
+												</tr>
+												<tr>
+													<th>Administered by</th>
+													<td>Kevin Alun Noble</td>
+												</tr>
+												<tr>
+													<th>GPhC identifier</th>
+													<td>2036897</td>
+												</tr>
+												<tr>
+													<th>Date</th>
+													<td>23 Jul 1986</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</text>
+								<entry>
+									<reference value="urn:uuid:d2c70330-0168-45ae-a231-7865ed9c0f82"/>
+								</entry>
+							</section>
+							<!--SECTION 7: Information and advice given-->
+							<section>
+								<title value="Information and Advice given"/>
+								<code>
+									<coding>
+										<system value="http://snomed.info/sct"/>
+										<code value="1052951000000105"/>
+										<display value="Information and advice given"/>
+									</coding>
+								</code>
+								<text>
+									<status value="additional"/>
+									<div xmlns="http://www.w3.org/1999/xhtml">
+										<table width="100%">
+											<tbody>
+												<tr>
+													<th>Information and advice given</th>
+													<td>Patient advised the side effects of the vaccine and requested to see their registered GP if any of the symptoms last longer than the expected duration.</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</text>
+							</section>
+							<!--SECTION 8: Patient demographics-->
+							<section>
+								<title value="Patient Demographics"/>
+								<code>
+									<coding>
+										<system value="http://snomed.info/sct"/>
+										<code value="886731000000109"/>
+										<display value="Patient demographics"/>
+									</coding>
+								</code>
+								<text>
+									<status value="additional"/>
+									<div xmlns="http://www.w3.org/1999/xhtml">
+										<table width="100%">
+											<tbody>
+												<tr>
+													<th>Patient name</th>
+													<td>Sabina RAFFLE</td>
+												</tr>
+												<tr>
+													<th>Date of birth</th>
+													<td>16 Sep 1930</td>
+												</tr>
+												<tr>
+													<th>Gender</th>
+													<td>female</td>
+												</tr>
+												<tr>
+													<th>NHS number</th>
+													<td>9686476814</td>
+												</tr>
+												<tr>
+													<th>Patient address</th>
+													<td>1 URPETH VILLAS, BEAMISH, STANLEY, CO DURHAM DH9 6RP</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</text>
+								<!--reference to further information carried in the patient resource-->
+								<entry>
+									<reference value="urn:uuid:3f389766-00d2-4547-af00-62ac84d0edf9"/>
+								</entry>
+							</section>
+						</Composition>
+					</resource>
+				</entry>
+				<entry>
+					<fullUrl value="urn:uuid:9a839106-3d7e-43fc-aaed-ba5ac29ecc86" />
+					<resource>
+						<Encounter>
+							<id value="9a839106-3d7e-43fc-aaed-ba5ac29ecc86" />
+							<meta>
+								<profile value="https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1" />
+							</meta>
+							<status value="finished" />
+							<subject>
+								<reference value="urn:uuid:3f389766-00d2-4547-af00-62ac84d0edf9" />
+								<display value="Sabina RAFFLE" />
+							</subject>
+							<participant>
+								<type>
+									<coding>
+										<system value="http://hl7.org/fhir/v3/ParticipationType" />
+										<code value="PPRF" />
+										<display value="primary performer" />
+									</coding>
+								</type>
+								<individual>
+									<reference value="urn:uuid:87c96dc5-ccc7-4a1c-aa7a-78f75d993e5b" />
+									<display value="Kevin Alun Noble" />
+								</individual>
+							</participant>
+							<period>
+								<start value="1986-07-23T00:00:00Z" />
+							</period>
+							<serviceProvider>
+								<reference value="urn:uuid:3eff2d48-9248-4f8e-9a6d-78413c360a75" />
+								<display value="Regent Pharmacy (Shanklin)" />
+							</serviceProvider>
+						</Encounter>
+					</resource>
+				</entry>
+				<entry>
+					<fullUrl value="urn:uuid:3eff2d48-9248-4f8e-9a6d-78413c360a75" />
+					<resource>
+						<Organization>
+							<id value="3eff2d48-9248-4f8e-9a6d-78413c360a75" />
+							<meta>
+								<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1" />
+							</meta>
+							<identifier>
+								<system value="https://fhir.nhs.uk/Id/ods-organization-code" />
+								<value value="FKL95" />
+							</identifier>
+							<name value="Regent Pharmacy (Shanklin)" />
+							<address>
+								<line value="1 High Street, Overtown, Leeds LS1 9AM" />
+							</address>
+							<telecom>
+								<system value="phone" />
+								<value value="01134875516" />
+								<use value="work" />
+							</telecom>
+							<telecom>
+								<system value="email" />
+								<value value="invalid.fortest@nhs.net" />
+								<use value="work" />
+							</telecom>
+						</Organization>
+					</resource>
+				</entry>
+				<entry>
+					<fullUrl value="urn:uuid:3f389766-00d2-4547-af00-62ac84d0edf9" />
+					<resource>
+						<Patient xmlns="http://hl7.org/fhir">
+							<id value="3f389766-00d2-4547-af00-62ac84d0edf9" />
+							<meta>
+								<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1" />
+							</meta>
+							<identifier>
+								<extension url="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1">
+									<valueCodeableConcept>
+										<coding>
+											<system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1" />
+											<code value="01" />
+											<display value="Number present and verified" />
+										</coding>
+									</valueCodeableConcept>
+								</extension>
+								<system value="https://fhir.nhs.uk/Id/nhs-number" />
+								<value value="9686476814" />
+							</identifier>
+							<name>
+								<use value="official" />
+								<text>Sabina RAFFLE</text>
+								<family value="RAFFLE" />
+								<given value="Sabina" />
+							</name>
+							<gender value="female" />
+							<birthDate value="1930-09-16" />
+							<address>
+								<use value="home" />
+								<text value="1 URPETH VILLAS, BEAMISH, STANLEY, CO DURHAM DH9 6RP" />
+							</address>
+							<generalPractitioner>
+								<reference value="urn:uuid:6662778c-a7e2-4054-aba6-2573e7f0ce94" />
+							</generalPractitioner>
+							<managingOrganization>
+								<reference value="urn:uuid:3eff2d48-9248-4f8e-9a6d-78413c360a75" />
+							</managingOrganization>
+						</Patient>
+					</resource>
+				</entry>
+				<entry>
+					<fullUrl value="urn:uuid:6662778c-a7e2-4054-aba6-2573e7f0ce94" />
+					<resource>
+						<Organization>
+							<id value="6662778c-a7e2-4054-aba6-2573e7f0ce94" />
+							<meta>
+								<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1" />
+							</meta>
+							<identifier>
+								<system value="https://fhir.nhs.uk/Id/ods-organization-code" />
+								<value value="P86609" />
+							</identifier>
+							<name value="MGP Medical Centre" />
+							<address>
+								<line value="1 MGP House, Overtown, Leeds LS21 7PA" />
+							</address>
+						</Organization>
+					</resource>
+				</entry>
+				<entry>
+					<fullUrl value="urn:uuid:87c96dc5-ccc7-4a1c-aa7a-78f75d993e5b" />
+					<resource>
+						<Practitioner>
+							<id value="87c96dc5-ccc7-4a1c-aa7a-78f75d993e5b" />
+							<meta>
+								<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1" />
+							</meta>
+							<identifier>
+								<system value="https://fhir.hl7.org.uk/Id/gphc-number" />
+								<value value="2036897" />
+							</identifier>
+							<name>
+								<text value="Kevin Alun Noble" />
+							</name>
+							<telecom>
+								<system value="phone" />
+								<value value="01134875516" />
+								<use value="work" />
+							</telecom>
+							<telecom>
+								<system value="email" />
+								<value value="invalid.fortest@nhs.net" />
+								<use value="work" />
+							</telecom>
+						</Practitioner>
+					</resource>
+				</entry>
+				<entry>
+					<fullUrl value="urn:uuid:d2c70330-0168-45ae-a231-7865ed9c0f82" />
+					<resource>
+						<Immunization>
+							<id value="d2c70330-0168-45ae-a231-7865ed9c0f82" />
+							<meta>
+								<profile value="https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-Immunization-1" />
+							</meta>
+							<extension url="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-VaccinationProcedure-1">
+								<valueCodeableConcept>
+									<coding>
+										<system value="http://snomed.info/sct"/>
+										<code value="955691000000108"/>
+										<display value="Seasonal influenza vaccination given by pharmacist"/>
+									</coding>
+								</valueCodeableConcept>
+							</extension>
+							<status value="completed" />
+							<notGiven value="false" />
+							<vaccineCode>
+								<coding>
+									<system value="http://snomed.info/sct" />
+									<code value="37531311000001101" />
+									<display value="Adjuvanted trivalent influenza vaccine (surface antigen, inactivated) suspension for injection 0.5ml pre-filled syringes" />
+								</coding>
+							</vaccineCode>
+							<patient>
+								<reference value="urn:uuid:3f389766-00d2-4547-af00-62ac84d0edf9" />
+								<display value="Sabina RAFFLE" />
+							</patient>
+							<encounter>
+								<reference value="urn:uuid:9a839106-3d7e-43fc-aaed-ba5ac29ecc86" />
+							</encounter>
+							<date value="1986-07-23" />
+							<primarySource value="true" />
+							<site>
+								<coding>
+									<system value="http://snomed.info/sct" />
+									<code value="368209003" />
+									<display value="Right upper arm" />
+								</coding>
+							</site>
+							<route>
+								<coding>
+									<system value="http://snomed.info/sct" />
+									<code value="34206005" />
+									<display value="Subcutaneous route" />
+								</coding>
+							</route>
+							<practitioner>
+								<role>
+									<coding>
+										<system value="http://hl7.org/fhir/v2/0443" />
+										<code value="AP" />
+										<display value="Administering Provider" />
+									</coding>
+								</role>
+								<actor>
+									<reference value="urn:uuid:87c96dc5-ccc7-4a1c-aa7a-78f75d993e5b" />
+									<display value="Kevin Alun Noble" />
+								</actor>
+							</practitioner>
+							<explanation>
+								<reason>
+									<coding>
+										<!-- Not presenting coded version as ValueSet not yet available - using UNC nullFlavor            <system value="http://snomed.info/sct" />-->
+										<system value="http://hl7.org/fhir/v3/NullFlavor"/>
+										<code value="UNC" />
+										<display value="65 years and over" />
+									</coding>
+								</reason>
+							</explanation>
+						</Immunization>
+					</resource>
+				</entry>
+				<entry>
+					<fullUrl value="urn:uuid:fd9cc5ce-2bf5-4642-9c47-9c041688132e"/>
+					<resource>
+						<List xmlns="http://hl7.org/fhir">
+							<id value="fd9cc5ce-2bf5-4642-9c47-9c041688132e"/>
+							<meta>
+								<profile value="https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Allergy-List-1"/>
+							</meta>
+							<identifier>
+								<system value="https://tools.ietf.org/html/rfc4122"/>
+								<value value="fd9cc5ce-2bf5-4642-9c47-9c041688132e"/>
+							</identifier>
+							<status value="current"/>
+							<mode value="snapshot"/>
+							<code>
+								<coding>
+									<system value="http://snomed.info/sct"/>
+									<code value="886921000000105"/>
+									<display value="Allergies and adverse reactions"/>
+								</coding>
+							</code>
+							<subject>
+								<reference value="urn:uuid:3f389766-00d2-4547-af00-62ac84d0edf9"/>
+								<display value="Sabina RAFFLE"/>
+							</subject>
+							<encounter>
+								<reference value="urn:uuid:9a839106-3d7e-43fc-aaed-ba5ac29ecc86"/>
+							</encounter>
+							<source>
+								<reference value="urn:uuid:87c96dc5-ccc7-4a1c-aa7a-78f75d993e5b"/>
+								<display value="Kevin Alun Noble"/>
+							</source>
+							<entry>
+								<item>
+									<reference value="urn:uuid:92832af2-860a-4902-bea5-2c3939a3f855"/>
+								</item>
+							</entry>
+						</List>
+					</resource>
+				</entry>
+				<!--Allergy documented during the encounter.-->
+				<entry>
+					<fullUrl value="urn:uuid:92832af2-860a-4902-bea5-2c3939a3f855"/>
+					<resource>
+						<AllergyIntolerance xmlns="http://hl7.org/fhir">
+							<id value="92832af2-860a-4902-bea5-2c3939a3f855"/>
+							<meta>
+								<profile value="https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-AllergyIntolerance-1"/>
+							</meta>
+							<identifier>
+								<system value="https://tools.ietf.org/html/rfc4122"/>
+								<value value="92832af2-860a-4902-bea5-2c3939a3f855"/>
+							</identifier>
+							<clinicalStatus value="active"/>
+							<verificationStatus value="unconfirmed"/>
+							<category value="medication"/>
+							<code>
+								<coding>
+									<system value="http://snomed.info/sct"/>
+									<code value="409137002"/>
+									<display value="No known drug allergy"/>
+								</coding>
+							</code>
+							<patient>
+								<reference value="urn:uuid:3f389766-00d2-4547-af00-62ac84d0edf9"/>
+								<display value="Sabina RAFFLE"/>
+							</patient>
+						</AllergyIntolerance>
+					</resource>
+				</entry>
+			</Bundle>
+		</resource>
+	</entry>
+</Bundle>

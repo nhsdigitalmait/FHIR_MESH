@@ -17,7 +17,7 @@
 				</meta>
 				<extension url="https://fhir.nhs.uk/STU3/StructureDefinition/Extension-ITK-MessageHandling-2">
 					<extension url="InfAckRequested">
-						<valueBoolean value="false"/>
+						<valueBoolean value="__INF_ACK_REQUESTED__"/>
 					</extension>
 					<extension url="RecipientType">
 						<valueCoding>

@@ -1,0 +1,11 @@
+/validator_reports/**
+/intermediary_temp/**
+/transmitter_source/**
+/simulator_saved_messages/**
+/messages_for_validation/**
+/logs/**
+/all_evidence/**
+/certs/**
+version_string.txt
+push_fhir_mesh_to_dockerhub.sh
+setremote.sh
