@@ -4,7 +4,7 @@ services:
         volumes:
             - '${HOME}/Scratch/fhir_mesh_data:/home/service/data'
             - '${HOME}/Technical_Specialist_Folder/fhir/Assets/NHSD.Assets.STU3_1.6.0/node_modules/NHSD.Assets.STU3:/home/service/fhir'
-            - '${HOME}/MESH-DATA-HOME/NOWOT003:/home/service/MESH/MESHMAIL001'
-            - '${HOME}/MESH-DATA-HOME/X26OT007:/home/service/MESH/MESHMAIL002'
+            - '${HOME}/Scratch/general_config:/home/service/config'
+            - '${HOME}/MESH-DATA-HOME:/home/service/MESH'
         image: 'nhsdigitalmait/tkw_fhir_mesh:0.1'
         

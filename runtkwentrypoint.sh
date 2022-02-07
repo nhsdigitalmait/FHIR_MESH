@@ -16,6 +16,10 @@ echo "Making sure output structure is available"
 
 cd /home/service/data
 tar -xvf /home/service/TKW/config/FHIR_MESH/tkwoutputstructure.tar
+
+# set the external properties folder
+export EXT_CONFIG_ROOT="/home/service/config"
+echo External properties directory: $EXT_CONFIG_ROOT
 cd /home/service
 # decide whether its TLSMA or not
 
