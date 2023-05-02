@@ -1,0 +1,12 @@
+# Ignore everything
+**
+
+# With these exceptions:
+!/simulator_config/**
+!/validator_config/**
+!/intermediary_temp/
+!/tkw-x.properties
+!/set-all-configurations.sh
+!/runtkwentrypoint.sh
+!/tkwoutputstructure.tar
+

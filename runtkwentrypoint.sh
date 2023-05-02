@@ -25,4 +25,6 @@ cd /home/service
 
 	#ClearText
 	java -version
-	java -jar /home/service/TKW/TKW-x.jar -meshinterceptor /home/service/TKW/config/FHIR_MESH/tkw-x.properties
+#	java -jar /home/service/TKW/TKW-x.jar -meshinterceptor /home/service/TKW/config/FHIR_MESH/tkw-x.properties
+	
+	java -XX:+UseContainerSupport -XX:MaxRAMPercentage=80.0 -jar /home/service/TKW/TKW-x.jar -meshinterceptor /home/service/TKW/config/FHIR_MESH/tkw-x.properties

@@ -21,9 +21,9 @@ read -n 1 -p "Press any key to continue..."
 echo building
 
 # the source folder must be in uninstall mode(TKW_ROOT) not inistall mode (with real paths)
-cd $TKWROOT/config/$PROJECT
-fixtkwroot.sh -u .
-cd -
+#cd $TKWROOT/config/$PROJECT
+#fixtkwroot.sh -u .
+#cd -
 
 # put the git commit hash and date into a text file
 echo "FHIR MESH Version: $TAG"  > version_string.txt

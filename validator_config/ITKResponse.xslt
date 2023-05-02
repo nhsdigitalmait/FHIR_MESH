@@ -11,7 +11,7 @@ table, th, td {color:#000000; border-collapse: collapse;}
 			</head>
 			<body>
 				<p style = "color:#000000">
-					<b>HAPI FHIR VALIDATION OUTPUT</b>
+					<b>ITK3 Response VALIDATION OUTPUT</b>
 				</p>
 			</body>
 		</html>
