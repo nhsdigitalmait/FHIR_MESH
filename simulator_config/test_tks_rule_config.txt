@@ -1022,7 +1022,64 @@ IF	prod_return_busackonly	THEN	bus_ack_only_30001
 IF	prod_return_bothack	THEN acks_IB001
 END RULE
 
-
+#ITK GPConnect Update Record
+BEGIN RULE
+ITK014M
+IF	return_noresponse	THEN	do_process
+IF	prod_return_noack	THEN	do_process
+IF	return_infack_invrep	THEN	inf_ack_only_invrep
+IF	return_infack_10001	THEN	inf_ack_only_10001
+IF	return_infack_10002	THEN	inf_ack_only_10002
+IF	return_infack_10003	THEN	inf_ack_only_10003
+IF	return_infack_10004	THEN	inf_ack_only_10004
+IF	return_infack_10005	THEN	inf_ack_only_10005
+IF	return_infack_10007	THEN	inf_ack_only_10007
+IF	return_infack_10008	THEN	inf_ack_only_10008
+IF	return_infack_10009	THEN	inf_ack_only_10009
+IF	return_infack_10010	THEN	inf_ack_only_10010
+IF	return_infack_20001	THEN	inf_ack_only_20001
+IF	return_infack_20002	THEN	inf_ack_only_20002
+IF	return_infack_20003	THEN	inf_ack_only_20003
+IF	return_infack_20004	THEN	inf_ack_only_20004
+IF	return_infack_20005	THEN	inf_ack_only_20005
+IF	return_infack_20006	THEN	inf_ack_only_20006
+IF	return_infack_20007	THEN	inf_ack_only_20007
+IF	return_infack_20008	THEN	inf_ack_only_20008
+IF	return_infack_20009	THEN	inf_ack_only_20009
+IF	return_infack_20010	THEN	inf_ack_only_20010
+IF	return_infack_20011	THEN	inf_ack_only_20011
+IF	return_infack_20012	THEN	inf_ack_only_20012
+IF	return_infack_20013	THEN	inf_ack_only_20013
+IF	return_infack_20014	THEN	inf_ack_only_20014
+IF	return_infack_20015	THEN	inf_ack_only_20015
+IF	return_busack_30001	THEN	bus_ack_only_30001
+IF	return_busack_30002	THEN	bus_ack_only_30002
+IF	return_busack_30003	THEN	bus_ack_only_30003
+IF	return_busack_30004	THEN	bus_ack_only_30004
+IF	return_bothack_IB001	THEN	acks_IB001
+IF	return_bothack_IB002	THEN	acks_IB002
+IF	return_bothack_IB003	THEN	acks_IB003
+IF	return_bothack_IB004	THEN	acks_IB004
+IF	INT_return_testdata_IB001	THEN	acks_IB001
+IF	INT_return_testdata_30001	THEN	bus_ack_only_30001
+IF	INT_return_testdata_IB002	THEN	acks_IB002
+IF	INT_return_testdata_30002	THEN	bus_ack_only_30002
+IF	INT_return_testdata_IB003	THEN	acks_IB003
+IF	INT_return_testdata_30003	THEN	bus_ack_only_30003
+IF	INT_return_testdata_IB004	THEN	acks_IB004
+IF	INT_return_testdata_30004	THEN	bus_ack_only_30004
+IF	OT_return_testdata_IB001	THEN	acks_IB001
+IF	OT_return_testdata_30001	THEN	bus_ack_only_30001
+IF	OT_return_testdata_IB002	THEN	acks_IB002
+IF	OT_return_testdata_30002	THEN	bus_ack_only_30002
+IF	OT_return_testdata_IB003	THEN	acks_IB003
+IF	OT_return_testdata_30003	THEN	bus_ack_only_30003
+IF	OT_return_testdata_IB004	THEN	acks_IB004
+IF	OT_return_testdata_30004	THEN	bus_ack_only_30004
+IF	prod_return_infackonly	THEN	inf_ack_only_20013
+IF	prod_return_busackonly	THEN	bus_ack_only_30001
+IF	prod_return_bothack	THEN acks_IB001
+END RULE
 
 BEGIN RULE
 pds-birth-notification-1
