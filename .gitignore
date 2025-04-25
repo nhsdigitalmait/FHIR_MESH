@@ -10,3 +10,4 @@ version_string.txt
 push_fhir_mesh_to_dockerhub.sh
 setremote.sh
 local_run_fhir_mesh.sh
+build_fhir_mesh_Docker_1005.sh
